@@ -97,10 +97,10 @@ def insert_feeder(location_id, feeder_name) :
 
     #run insert query to add the result
 
-    '''requests.post('http://localhost:7000/api/insert', json = {
+    requests.post('http://localhost:7000/api/insert', json = {
         'query' : QUERY,
         'parameters' : None
-    })'''
+    })
 
     #test
 
